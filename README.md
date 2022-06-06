@@ -24,7 +24,7 @@ create topic -
 kafka-topics.bat --bootstrap-server localhost:9092 --topic first_topic --create --partitions 1 --replication-factor 1
 
 list topic -
-kafka-topics.bat --bootstrap-server localhost:9092 --list 
+kafka-topics.bat --bootstrap-server localhost:9092 --list
 
 Describe topic -
 kafka-topics.bat --bootstrap-server localhost:9092 --topic first_topic –describe
