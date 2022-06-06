@@ -19,6 +19,19 @@ kafka-topics.bat --zookeeper localhost:2181 --list
 
 kafka-topics.bat --zookeeper localhost:2181 --topic first_topic –describe
 
+New version of Kafka -
+create topic -
+kafka-topics.bat --bootstrap-server localhost:9092 --topic first_topic --create --partitions 1 --replication-factor 1
+
+list topic -
+kafka-topics.bat --bootstrap-server localhost:9092 --list 
+
+Describe topic -
+kafka-topics.bat --bootstrap-server localhost:9092 --topic first_topic –describe
+
+Delete topic -
+kafka-topics.bat --bootstrap-server localhost:9092 --topic first_topic –delete 
+
 Start producing in command prompt ->
 
 cd C:\kafka_2.12-2.8.0
